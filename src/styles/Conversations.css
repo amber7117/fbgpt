@@ -1,0 +1,43 @@
+.conversations {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-right: 1px solid rgba(204, 204, 204, 1);
+    width: 20vw;
+    overflow: hidden;
+}
+
+.conversations h2 {
+    margin: 10px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+.conversations hr {
+    border-top: 1px solid rgba(204, 204, 204, 1);
+    width: 100%;
+    margin-bottom: 0;
+}
+.conversation {
+    padding: 20px 20px 0;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+    cursor: pointer;
+}
+.conversation:hover {
+    background-color: rgba(204, 204, 204, 0.2);
+}
+.conversation.selected {
+    background-color: rgba(204, 204, 204, 0.5);
+}
+.conversation h5{
+    margin: 0;
+}
+.conversation p{
+    color: #777;
+    font-size: small;
+}
+.time {
+    float: right;
+    font-weight: 400;
+    color: #777;
+}

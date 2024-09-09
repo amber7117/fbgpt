@@ -1,0 +1,50 @@
+.card {
+    text-align: center;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+}
+.card h3 {
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+.card > button, .card > a > button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e4d91;
+    color: #fff;
+    font-size: 1em;
+    width: 60%;
+    cursor: pointer;
+}
+.card form {
+    text-align: left;
+    margin: 0 20%;
+    width: 60%;
+}
+.card form label{
+    font-size: 0.9em;
+}
+.card form input {
+    width: 90%;
+    height: 2em;
+    padding: 2px 8px;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+}
+.card form input[type='checkbox']{
+    width: auto;
+    height: auto;
+}
+.card form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e4d91;
+    color: #fff;
+    font-size: 1em;
+    width: 100%;
+    cursor: pointer;
+}

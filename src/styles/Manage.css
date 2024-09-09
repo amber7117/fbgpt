@@ -1,0 +1,17 @@
+.manage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.manage .card h3{
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+.manage .card button{
+    margin-bottom: 1em;
+}
+.manage .card button.delete{
+    background-color: #f44336;
+}
